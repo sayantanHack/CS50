@@ -56,7 +56,7 @@ int main(void)                                  //main function
               {
                   printf("MasterCard\n");
                }
-              else if(dig==4&&(count==13 || count==16))
+              else if((dig/10)==4&&(count==13 || count==16))
               {
                   printf("Visa\n");
               } break;
