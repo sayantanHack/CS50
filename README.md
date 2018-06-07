@@ -26,3 +26,7 @@ If we now divide this sum by 11, we get 330 ÷ 11 = 30 with no remainder at all,
 Hopefully those exclamation points make the math more exciting.
 
 So, computing this check digit’s not hard, but it does get a bit tedious by hand. Let’s write a program.
+
+## CAESAR CIPHER 
+  This is an code for encrypt data or any plain text file.This ecrypt the plain text into cipher text , according to the key .
+  <br> Now the Key is the number you have to enter through Command Line Arguement . Use the code in CLI .This will entrypt the text entered by the user.
