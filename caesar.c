@@ -12,6 +12,11 @@ int main(int argc, string argv[])
         key = atoi(num);                        //Taking the key value from the CLi arg as CLI ARG is string type(basically char pointer)atoi helps to make it int.
         //printf("key is %d\n", key);
     }
+    else
+    {
+        printf ("usage : ./caesar + key \n");
+        return 1;
+    }
     string text = get_string("plaintext: ");
     for(int i=0,len = strlen(text);i < len;i++)
     {
