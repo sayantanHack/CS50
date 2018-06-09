@@ -30,3 +30,17 @@ So, computing this check digit’s not hard, but it does get a bit tedious by ha
 ## CAESAR CIPHER 
   This is an code for encrypt data or any plain text file.This ecrypt the plain text into cipher text , according to the key .
   <br> Now the Key is the number you have to enter through Command Line Arguement . Use the code in CLI .This will entrypt the text entered by the user.
+  
+## Vigenere Cipher
+  This is also an encryption technique based on the concept of Caesar Cipher.In Caesar Cipher we used an integer(number) for
+  the key , but in this Vigenere Cipher we use any string(simply a simgle word) as a key . The characters of the keys are to 
+  be used as the increment in numbers. Not understandably ? check the example:
+  
+  Plaintext = This is Sayantan        ||        key = git  
+  g will sit under the 'T' ,then i will sit under 'h' ,t will sit under 'y' then again g will sit under 's' next ii will sit 
+  under 'i' and so on. <br>
+  concider the alphabetic index : a = 0, b = 1, c=2 , d= 3, ..... , x = 23 ,y = 24, z= 25 <br>
+  'T' will increase to index of g(6) , and T will be Z. 
+  'h' will increase to index of i(8) , and h will be P , and so on...<br>
+  The encryption is more strong than the Caesar cipher .
+  
